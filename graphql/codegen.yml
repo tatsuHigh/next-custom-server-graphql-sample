@@ -1,0 +1,13 @@
+overwrite: true
+schema: graphql/schema.graphql
+documents: graphql/req/*gql
+generates:
+  graphql/lib/generated/client.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-graphql-request
+  graphql/lib/generated/resolvers.ts:
+    plugins:
+      - typescript
+      - typescript-resolvers

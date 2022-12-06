@@ -1,0 +1,8 @@
+type Query {
+  helloworld: Helloworld
+}
+
+type Helloworld {
+  first: String
+  second: String
+}

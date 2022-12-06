@@ -1,0 +1,6 @@
+query getHelloWorld {
+  helloworld {
+    first
+    second
+  }
+}
